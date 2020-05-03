@@ -255,6 +255,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pyxis-common/proprietary/vendor/etc/configstore/vpp.configstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/vpp.configstore.xml \
     vendor/xiaomi/pyxis-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/pyxis-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/xiaomi/pyxis-common/proprietary/vendor/etc/goodix/BMatrix.so:$(TARGET_COPY_OUT_SYSTEM)/etc/goodix/BMatrix.so \
+    vendor/xiaomi/pyxis-common/proprietary/vendor/etc/goodix/caliParamsInfo.so:$(TARGET_COPY_OUT_SYSTEM)/etc/goodix/caliParamsInfo.so \
     vendor/xiaomi/pyxis-common/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/pyxis-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/pyxis-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
